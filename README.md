@@ -1,4 +1,4 @@
-# 項目名稱
+# Phpmyadmin + MySQL 
 
 自動使用docker 部屬phpmyadmin環境與mysql
 
