@@ -44,13 +44,21 @@ docker-compose up -d
 ```
 sudo ufw allow 8080
 ```
-### 5. 設置開機自動運行(ubuntu)非必要
+### 5. 設置開機自動運行(非必要)
+
+- Ubutnu Shell:
 
 ```
-chmod +x setup_dockercompose-service.sh
-./setup_dockercompose-service.sh
+chmod +x ubuntu_setup_dockercompose-service.sh
+./ubuntu_setup_dockercompose-service.sh
 ```
 
+- Windows PowerShell:
+
+```
+Set-ExecutionPolicy RemoteSigned
+.\windows_setup_dockercompose-service.ps1
+```
 
 ## 如何停止
 
