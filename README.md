@@ -16,7 +16,9 @@
 sudo apt update
 sudo apt install docker-compose
 ```
+
 ### 2. 修改 Docker Compose 文件
+
 打開 docker-compose.yml 文件，並修改其中的用戶名和密碼等設置。
 
 ```
@@ -30,18 +32,28 @@ services:
 ```
 
 ### 3. 運行 Docker Compose
+
 使用以下命令啟動您的 Docker 容器：
 ```
 docker-compose up -d
 ```
 
 ### 4. 檢查防火牆設置
+
 確保 8080 端口已開放。在 Ubuntu 上，您可以使用 ufw 進行管理
 ```
 sudo ufw allow 8080
 ```
+### 5. 設置開機自動運行(ubuntu)
+
+```
+chmod +x setup_dockercompose-service.sh
+./setup_dockercompose-service.sh
+```
+
 
 ## 如何停止
+
 要停止並移除容器、網絡、卷和映像
 ```
 docker-compose down
