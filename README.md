@@ -44,7 +44,7 @@ docker-compose up -d
 ```
 sudo ufw allow 8080
 ```
-### 5. 設置開機自動運行(ubuntu)
+### 5. 設置開機自動運行(ubuntu)非必要
 
 ```
 chmod +x setup_dockercompose-service.sh
