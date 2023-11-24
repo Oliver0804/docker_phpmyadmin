@@ -5,8 +5,21 @@
 - - -
 
 ## 如何運行
-
 以下是運行項目的步驟：
+
+### 0. 快速安装...
+
+腳本自動化安裝
+```
+./ubuntu_setup_dockercompose-service.sh
+```
+
+確認容器是否運行
+```
+docker ps
+```
+
+想手動安裝可自己操作下面步驟
 
 ### 1. 安裝 Docker Compose
 
