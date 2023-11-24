@@ -1,6 +1,7 @@
 # Phpmyadmin + MySQL 
 
-自動使用docker 部屬phpmyadmin環境與mysql
+- 自動使用docker 部屬phpmyadmin環境與mysql
+- 自動設定開機運行docker-compose服務
 
 - - -
 
